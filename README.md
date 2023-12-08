@@ -59,34 +59,37 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 
 ### Analysis: Experienced vs. Inexperienced Writers & Directors
 
-Experienced directors and writers have higher popularity and domestic ROI compared to their inexperienced counterparts. We would like to test if the means of these two samples are statistically significant, so we perform 2-sample t-tests for our dependent variables of interest (not pictured here is domestic gross, which is included in our Final.ipynb).
+Experienced directors and writers have higher popularity, domestic gross, and domestic ROI compared to their inexperienced counterparts. In the bar charts below, experienced creators (in yellow) are associated with higher ROI. We would like to test if the means of these two samples are statistically significant, so we perform 2-sample t-tests for our dependent variables of interest (not pictured here is domestic gross, which is included in our Final.ipynb).
 
-![Popularity v Director](images/popularitydirector.png) ![ROI v Director](images/ROIDirector.png)
+![ROI v Director](images/ROIDirector.png)
 
-![Popularity v Writer](images/PopularityWriter.png) ![ROI v Writer](images/PopularityWriter.png)
-
+![ROI v Writer](images/PopularityWriter.png)
 
 As a result of our testing, we found that experienced directors may lead to more popular and higher grossing movies, but does not lead to higher domestic ROI relative to less experienced directors. In a similar vein, hiring experienced writers may lead to more popular movies, but does not lead to higher domestic gross or higher domestic ROI relative to less experienced writers.
 
 Since inexperienced directors and writers are also likely to be more affordable to hire, we recommend choosing a writer based on their salary expectations rather than the number of movies they have led.
 
 ### Analysis: Budget
+In the scatter plots below, there seems to be a generally positive relationship between production budget and a movie's popularity. We test the strength of this apparent linear relationship using a simple linear regression.
 
 ![Budget v Popularity](images/BudgetPop.png)
 
 ![Budget v Gross](images/BudgetGross.png)
 
+Our regressions show that higher production budget explains very little of the variance in popularity (~15%) and domestic gross (~25%). Therefore, we can recommend that our client spend "reasonably." Obviously, this budgetting decision is subjective, but the ultimate message here is that excessive spending is not necessary to create profit.
+
 ### Analysis: Runtime
+In the scatter plots below, there seems to be a generally positive relationship between runtime and a movie's popularity and domestic ROI. We test the strength of this apparent linear relationship using a simple linear regression.
 
 ![Runtime v Popularity](images/RuntimePop.png)
 
 ![Runtime v ROI](images/RuntimeROI.png)
 
+Our regression showed that runtime of a movie seems to have no linear relationship with any of our dependent variables of concern. As such, our recommendation to our client is to not focus on the length of the feature. Produce a film which generally falls within the normal length audiences expect, because producing any longer or shorter doesn't improve movie outcomes.
+
 # Conclusions
 
-
 Our goal has been to provide data-backed recommendations on the best strategy for our client to enter the movie industry. Using three extensive datasets and multiple statistical models, we provide the five recommendations below, each tailored to the resources and interests of a new firm. 
-
 
 ## Summation of Recommendations
 
