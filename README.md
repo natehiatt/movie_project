@@ -5,14 +5,24 @@ Our firm is advising a company that plans to venture into the movie industry by 
 
 The data we will use is publicly available through [IMDB](https://www.imdb.com/), [Box Office Mojo](https://www.boxofficemojo.com/), [Rotten Tomatoes](https://www.rottentomatoes.com/), [The Movie Database (TMDB)](https://www.themoviedb.org/), and [The Numbers](https://www.the-numbers.com/).
 
-In addition, our presentation can be found here: [Slide Deck](https://docs.google.com/presentation/d/1RR23O4ka1Zdvgp1HC9cLXy5smHbgusWzRsVdYAl3bDw/edit?usp=sharing) 
+Our presentation can be found here: [Slide Deck](https://docs.google.com/presentation/d/1RR23O4ka1Zdvgp1HC9cLXy5smHbgusWzRsVdYAl3bDw/edit?usp=sharing) 
 
 ## Business Understanding
-The movie industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, the
+The movie industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. 
 
-STAKEHOLDERS: could use the project and how
+Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors.
+
 
 ## Data Understanding
+
+The IMDB database contains 150k records, and from it we took information on directors, writers, movie runtime, and release dates.
+
+The Numbers dataset consists of about 6k records, and we use it for its financial information: domestic gross and production budget. While the size of this dataset is a small fraction of the other two, it is also our most extensive source of financial data, which is a crucial metric of success.
+
+Finally, the Movie Database (TMDB) consists of about 27k records. Its most important metric is the popularity rating, which is calculated as a "lifetime" score. It takes into account viewer votes and views, watchlisting, and total number of votes. The breakdown for what is included can be found here: [TMDB Popularity Score](https://developer.themoviedb.org/docs/popularity-and-trending). 
+
+Across the board, we were able to connect our datasets using movie title. 
+
 source and properties of the data, why it's useful
 size of dataset
 which features are included
