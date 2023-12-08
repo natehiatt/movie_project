@@ -1,4 +1,4 @@
-![ReadMe header](images/readme_header.pdf)
+![ReadMe header](images/readme_header.png)
 # Movie Industry Data Analysis
 ## Overview
 Our firm is advising a company that plans to venture into the movie industry. They have tasked us with finding trends and relationships that may guide their decisions. Such exploration may include recommendations on movie type, who to hire, when to make movies, how much to spend, etc., all in order to maximize profits. By the end of our analysis, we will provide five data-backed and statistically tested recommendations for our client's new movie studio.
