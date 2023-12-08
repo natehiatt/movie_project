@@ -59,13 +59,16 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 
 ### Analysis: Experienced vs. Inexperienced Writers & Directors
 
-![Popularity v Director](images/popularitydirector.png)
+Experienced directors and writers have higher popularity and domestic ROI compared to their inexperienced counterparts. We would like to test if the means of these two samples are statistically significant, so we perform 2-sample t-tests for our dependent variables of interest (not pictured here is domestic gross, which is included in our Final.ipynb).
 
-![ROI v Director](images/ROIDirector.png)
+![Popularity v Director](images/popularitydirector.png) ![ROI v Director](images/ROIDirector.png)
 
-![Popularity v Writer](images/PopularityWriter.png)
+![Popularity v Writer](images/PopularityWriter.png) ![ROI v Writer](images/PopularityWriter.png)
 
-![ROI v Writer](images/PopularityWriter.png)
+
+As a result of our testing, we found that experienced directors may lead to more popular and higher grossing movies, but does not lead to higher domestic ROI relative to less experienced directors. In a similar vein, hiring experienced writers may lead to more popular movies, but does not lead to higher domestic gross or higher domestic ROI relative to less experienced writers.
+
+Since inexperienced directors and writers are also likely to be more affordable to hire, we recommend choosing a writer based on their salary expectations rather than the number of movies they have led.
 
 ### Analysis: Budget
 
