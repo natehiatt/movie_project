@@ -11,7 +11,7 @@ Our presentation can be found here: [Slide Deck](https://docs.google.com/present
 ## Business Understanding
 The two major stakeholders in the movie industry are the studios and the audiences.
 
-The industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors. Therefore, there is room in the industry for a new studio to capture mraketshare.
+The industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors. Therefore, there is room in the industry for a new studio to capture marketshare.
 
 ## Data Understanding
 The IMDB database contains 150k records, and from it we took information on directors, writers, movie runtime, and release dates.
