@@ -1,5 +1,6 @@
 ![ReadMe header](images/readme_header.png)
 # Movie Industry Data Analysis
+
 ## Overview
 Our firm is advising a company that plans to venture into the movie industry by setting up a new movie studio. Our clients require that we use available data to explore what films have done well and why. They have tasked us with finding trends and relationships in this data that may guide their decisions. Such exploration may include recommendations on movie type, who to hire, when to make movies, how much to spend, etc., all in order to maximize profits. By the end of our analysis, we will provide five data-backed and statistically tested recommendations for our client's new movie studio.
 
@@ -8,10 +9,9 @@ The data we will use is publicly available through [IMDB](https://www.imdb.com/)
 Our presentation can be found here: [Slide Deck](https://docs.google.com/presentation/d/1RR23O4ka1Zdvgp1HC9cLXy5smHbgusWzRsVdYAl3bDw/edit?usp=sharing) 
 
 ## Business Understanding
-The movie industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. 
+The two major stakeholders in the movie industry are the studios and the audiences.
 
-Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors.
-
+The industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors. Therefore, there is room in the industry for a new studio to capture mraketshare.
 
 ## Data Understanding
 
@@ -23,16 +23,23 @@ Finally, the Movie Database (TMDB) consists of about 27k records. Its most impor
 
 ## Data Preparation
 Major data cleaning included limiting our analysis to post-2000 movies, because the vast majority of movies fall within this period. In addition, we removed budgetary outliers, because a new studio is unlikely to afford that expense. 
+
 We chose three dependent variables for analysis: the popularity score (linked in the section above), domestic gross, and domestic ROI (a calculated value).
+
 Finally, rather than creating only one shared dataset, we created separate datasets for each of our recommendations. This enabled us to save as much information as possible for each test.
 
 ## Analysis and Results/Recommendations
 iMPLICATIONS FOR STAKEHOLDERS, their real-world problem, goal
-1. 
-2. 3D
-3. creators
-4. budget
-5. runtime
+### (1.) Timing
+### (2.) 3-D vs. 2-D
+### (3.) Directors & Writers
+
+### (4.) Budget
+
+
+### (5.) Runtime
+
+
 
 ## Limitations of Data
 While we have access to production budget for the movies in our data, there are other aspects of budget, such as marketing budget, that would have changed our ROI calculations.
