@@ -53,8 +53,6 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 
 ![ROI 2-D v 3-D](images/roi2d3d.png)
 
-![Gross 2-D v 3-D](images/gross2d3d.png)
-
 ![Popularity 2-D v 3-D](images/popularity2d3d.png)
 
 ![Production Budget 2-D v 3-D](images/prodbudget2d3d.png)
@@ -62,8 +60,6 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 ### Analysis: Experienced vs. Inexperienced Writers & Directors
 
 ![Popularity v Director](images/popularitydirector.png)
-
-![Gross v Director](images/GrossDirector.png)
 
 ![ROI v Director](images/ROIDirector.png)
 
@@ -80,8 +76,6 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 ### Analysis: Runtime
 
 ![Runtime v Popularity](images/RuntimePop.png)
-
-![Runtime v Gross](images/RuntimeGross.png)
 
 ![Runtime v ROI](images/RuntimeROI.png)
 
@@ -107,7 +101,7 @@ The experience level of directors and writers does not have a statistically sign
 
 **(4.) Budget Recommendation:**
 
-Budget explains about 58% of variance in domestic gross, which means that spending more on a movie is generally a good investment. However, we recognize that our firm may not have as many funds compared to established movie studios. Therefore, we recommend that our firm maximize production value *within* their capabilities.
+Budget explains about 25% of variance in domestic gross, which is a weak relationship. We recognize that our firm may not have as many funds compared to established movie studios. Therefore, we recommend that our firm maximize production value *within* their capabilities.
 
 **(5.) Runtime Recommendation:** 
 
@@ -139,6 +133,8 @@ Although not in the scope of this project, building a predictive model would als
 │   ├── nate_scratch.ipynb
 │   ├── shelley_scratch.ipynb
 │   ├── jay_scratch.ipynb
+│   ├── Final_Jay_Copy.ipynb
+│   ├── Final_copy_shelley.ipynb
 ├── .gitignore
 ├── Final.ipynb
 ├── LICENSE
