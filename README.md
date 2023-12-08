@@ -127,6 +127,7 @@ Although not in the scope of this project, building a predictive model would als
 │   ├── jay_scratch.ipynb
 │   ├── Final_Jay_Copy.ipynb
 │   ├── Final_copy_shelley.ipynb
+├── presentation.pdf
 ├── .gitignore
 ├── Final.ipynb
 ├── LICENSE
