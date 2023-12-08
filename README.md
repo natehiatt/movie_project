@@ -21,16 +21,14 @@ The Numbers dataset consists of about 6k records, and we use it for its financia
 
 Finally, the Movie Database (TMDB) consists of about 27k records. Its most important metric is the popularity rating, which is calculated as a "lifetime" score. It takes into account viewer votes and views, watchlisting, and total number of votes. The breakdown for what is included can be found here: [TMDB Popularity Score](https://developer.themoviedb.org/docs/popularity-and-trending). 
 
-Every dataset contained information on movie title, so we were able to connect our datasets using title. 
-
 ## Data Preparation
-3 independent variables
-major code
-: outliers and which data sets were joined
+Major data cleaning included limiting our analysis to post-2000 movies, because the vast majority of movies fall within this period. In addition, we removed budgetary outliers, because a new studio is unlikely to afford that expense. 
+We chose three dependent variables for analysis: the popularity score (linked in the section above), domestic gross, and domestic ROI (a calculated value).
+Finally, rather than creating only one shared dataset, we created separate datasets for each of our recommendations. This enabled us to save as much information as possible for each test.
 
 ## Analysis and Results/Recommendations
 iMPLICATIONS FOR STAKEHOLDERS, their real-world problem, goal
-1. timing
+1. 
 2. 3D
 3. creators
 4. budget
