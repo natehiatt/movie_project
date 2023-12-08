@@ -21,12 +21,7 @@ The Numbers dataset consists of about 6k records, and we use it for its financia
 
 Finally, the Movie Database (TMDB) consists of about 27k records. Its most important metric is the popularity rating, which is calculated as a "lifetime" score. It takes into account viewer votes and views, watchlisting, and total number of votes. The breakdown for what is included can be found here: [TMDB Popularity Score](https://developer.themoviedb.org/docs/popularity-and-trending). 
 
-Across the board, we were able to connect our datasets using movie title. 
-
-source and properties of the data, why it's useful
-size of dataset
-which features are included
-limitations of data
+Every dataset contained information on movie title, so we were able to connect our datasets using title. 
 
 ## Data Preparation
 3 independent variables
@@ -41,8 +36,15 @@ iMPLICATIONS FOR STAKEHOLDERS, their real-world problem, goal
 4. budget
 5. runtime
 
+## Limitations of Data
+While we have access to production budget for the movies in our data, there are other aspects of budget, such as marketing budget, that would have changed our ROI calculations.
+
+Our sample of 3-D movies was ultimately cut down to just 10 movies, which diminishes our ability to find a statistically significant result and the overall value of this analysis. This is 
+
 ## Potential Next Steps
-utility of the data for other research
+We were able to provide five actionable insights to our clients using only certain parts of three of the datasets available. In the future, we encourage further exploration of all available data. For example, researchers might look at the profit potentials of hiring certain actors over others, of distributing movies in certain countries, of different genres of movies, etc.
+
+Although not in the scope of this project, building a predictive model based on the strength of relationships between various production variables could provide more insights about how a planned production may perform.
 
 ## Repo Structure
 ```
