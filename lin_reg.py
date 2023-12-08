@@ -1,4 +1,4 @@
-def best_line(X, Y):
+def best_line(X, Y, title, xlabel, ylabel):
     """This function plots the best-fit line for a group of datapoints broken into
     a set of independent variable values (X) and a set of dependent variable values (Y)"""
     import numpy as np
@@ -26,5 +26,8 @@ def best_line(X, Y):
     fig, ax = plt.subplots()
     ax.plot(X, Y, 'ro', label='datapoints')
     ax.plot(Xs, Ys, 'k', label=f'y={round(beta_1, 2)}x+{round(beta_0, 2)}')
-    plt.legend()
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.ticklabel_format(useOffset=True, style='plain')
     plt.show();
