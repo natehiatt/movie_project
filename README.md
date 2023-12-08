@@ -14,7 +14,6 @@ The two major stakeholders in the movie industry are the studios and the audienc
 The industry is dominated by large, established studios. The "Big Five" include Universal, Paramount, Warner Bros., Disney, and Sony. These companies have the connections, influence, and deep pockets to create most of the well-known blockbusters we see in theaters today. However, their tactic of mass appeal leaves portions of the market open for smaller studios. Audiences are extremely diverse, with many movie-goers preferring lower budget, more niche storytelling. Smaller studios like A24 became extremely successful off of complex, high-quality films made with lesser-known actors. Therefore, there is room in the industry for a new studio to capture mraketshare.
 
 ## Data Understanding
-
 The IMDB database contains 150k records, and from it we took information on directors, writers, movie runtime, and release dates.
 
 The Numbers dataset consists of about 6k records, and we use it for its financial information: domestic gross and production budget. While the size of this dataset is a small fraction of the other two, it is also our most extensive source of financial data, which is a crucial metric of success.
@@ -29,10 +28,7 @@ We chose three dependent variables for analysis: the popularity score (linked in
 Finally, rather than creating only one shared dataset, we created separate datasets for each of our recommendations. This enabled us to save as much information as possible for each test.
 
 ## Analysis and Results/Recommendations
-iMPLICATIONS FOR STAKEHOLDERS, their real-world problem, goal
-
 ### Analysis: Release Month
-
 Below, we graphically explore the relationship between the month of release of a movie and, first, the average domestic gross revenue, and second, the average domestic ROI.
 
 ![Gross Revenue v. ROI](images/grossVmonth.png)
@@ -48,7 +44,6 @@ As a newer studio, it makes more sense to avoid this high-risk, end-of-year scra
 In `Final.ipynb` we also perform hypothesis testing -- specifically, an ANOVA on the various months of release. The first ANOVA -- regarding gross domestic revenue -- demonstrates that there is, indeed, a statistically significant difference in the gross domestic revenue of movies released in different months; the latter ANOVA -- regarding ROI -- is higher than our chosen $\alpha$, and thus there we cannot reject our null hypothesis. In other words, the second ANOVA shows that there is not a statistically significant difference in average ROI among the different months. Still, we can see there are variations in the means, and can try to draw conclusions accordingly.
 
 ### Analysis: 2-D vs. 3-D
-
 We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic gross, and popularity. Looking at ROI and gross will help understand which group may be more profitable, and the popularity metric is also important in order to try to determine which group of movies may help the new studio gain more recognition and media popularity. First, we will create 4 bar charts to compare the means of the 3-D and 2-D movies over these metrics. We include a production budget chart to help explain what we are seeing, as production budget may have an affect domestic gross and popularity.
 
 ![ROI 2-D v 3-D](images/roi2d3d.png)
@@ -58,7 +53,6 @@ We will compare the 3-D movies with 2-D movies based on domestic ROI, domestic g
 ![Production Budget 2-D v 3-D](images/prodbudget2d3d.png)
 
 ### Analysis: Experienced vs. Inexperienced Writers & Directors
-
 Experienced directors and writers have higher popularity, domestic gross, and domestic ROI compared to their inexperienced counterparts. In the bar charts below, experienced creators (in yellow) are associated with higher ROI. We would like to test if the means of these two samples are statistically significant, so we perform 2-sample t-tests for our dependent variables of interest (not pictured here is domestic gross, which is included in our Final.ipynb).
 
 ![ROI v Director](images/ROIDirector.png)
@@ -88,34 +82,26 @@ In the scatter plots below, there seems to be a generally positive relationship 
 Our regression showed that runtime of a movie seems to have no linear relationship with any of our dependent variables of concern. As such, our recommendation to our client is to not focus on the length of the feature. Produce a film which generally falls within the normal length audiences expect, because producing any longer or shorter doesn't improve movie outcomes.
 
 # Conclusions
-
 Our goal has been to provide data-backed recommendations on the best strategy for our client to enter the movie industry. Using three extensive datasets and multiple statistical models, we provide the five recommendations below, each tailored to the resources and interests of a new firm. 
 
 ## Summation of Recommendations
-
 **(1.) Time of Release:** 
-
 Spring and summer will be the better times for a newer studio to try to enter the market. Audiences are largest and the most money is available during the summer, but there will be the large summer blockbusters to compete with. Springtime -- and specifically spring break -- presents an opportunity for both high gross revenue and ROI. As a new studio, it probably makes sense to avoid November and December, when big-budget films from major studios are vying for Oscar attention, and would likely crowd out smaller releases. Additionally, later in the year promises much lower ROI than other times -- again, likely because larger studios are willing to swallow losses in the pursuit of prestige.
     
 **(2.) 3-D vs. 2-D Movies:** 
-
 We recommend that a new studio avoids 3-D movies. Although we found no significant difference across domestic ROI, domestic gross, and popularity between 3-D movies and 3-D movies, the mean domestic ROI being higher for 2-D movies in our sample may be indicative of higher profitability of 2-D movies when considering the high production budgets of 3-D movies.
 
 **(3.) Experienced Directors and Writers:** 
-
 The experience level of directors and writers does not have a statistically significant effect on domestic ROI. Since experienced directors and writers are more expensive to hire, we recommend that movie studios hire based on salary expectations rather than length of resume. This will keep costs down without sacrificing monetary gain.
 
 **(4.) Budget Recommendation:**
-
 Budget explains about 25% of variance in domestic gross, which is a weak relationship. We recognize that our firm may not have as many funds compared to established movie studios. Therefore, we recommend that our firm maximize production value *within* their capabilities.
 
 **(5.) Runtime Recommendation:** 
-
 Runtime has little to no effect on monetary outcomes or movie popularity. When producing a film, our client should focus on remaining within the average/normal length that a viewer expects.
 
 
 ## Potential Next Steps
-
 Going forward, there are a few other ways that we could use this data to provide additional insights for a new studio. We could simply analyze other variables in the data set, such as genre or actor to provide a recommendation about which genre is most profitable to release and which actors or actresses help gain the most media popularity for a new studio. 
 
 There are also ways that we could have manipulated the variables that we analyzed in our project differently. For example, we could have binned the runtimes of our movies in order to approximate the optimal runtime in terms of profitability and popularity of the movie.
